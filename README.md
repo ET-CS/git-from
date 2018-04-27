@@ -13,4 +13,14 @@ Copy `git-from` into your path.
 	git from <repo> <dir>
 
 You can provide your `.git-from` file in the template repo and it will 
-be runned once and deleted.
+be runned once and deleted. <dir> will be passed as param.
+
+### Example
+
+Example `.git-from`:
+
+```
+#!/bin/bash
+NEW_REPO_NAME=$1
+echo "preparing repo $NEW_REPO_NAME"
+```
