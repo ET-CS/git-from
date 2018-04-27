@@ -2,11 +2,11 @@ git-from
 ========
 
 `git-from` is an extension of git clone,
-allowing you to create a new repo based on a template repo
+allowing you to create a new repo based on a template repo.
 
 ## Installation
 
-Copy `git-from` into your path.
+Copy `git-from` into your path. make sure it's executable (`chmod +x git-from`)
 
 ## Usage
 
