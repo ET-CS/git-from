@@ -6,7 +6,7 @@ allowing you to create a new repo based on a template repo.
 
 ## Installation
 
-Copy `git-from` into your path. make sure it's executable (`chmod +x git-from`).
+Copy `git-from` into your path. make sure it's executable. (`chmod +x git-from`)
 
 ## Usage
 
