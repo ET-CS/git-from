@@ -23,4 +23,6 @@ Example `.git-from`:
 #!/bin/bash
 NEW_REPO_NAME=$1
 echo "preparing repo $NEW_REPO_NAME"
+# replace patterns in git-controlled files
+git sed -f g template-repo $NEW_REPO_NAME
 ```
